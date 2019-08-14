@@ -19,8 +19,10 @@ public class UserServiceImpl implements UserService {
     public UserModel getUserById(Integer id) {
         UserModel userModel=new UserModel();
         UserDO userDO=userDOMapper.selectByPrimaryKey(id);
+        if(userDO==null) return null;
         UserPasswordDO userPasswordDO=userPasswordDOMapper.selectByUserId(userDO.getId());
         BeanUtils.copyProperties(userDO,userModel);
+        if(userPasswordDO!=null)
         userModel.setEncrptPassword(userPasswordDO.getEncrptPassword());
         return userModel;
     }
