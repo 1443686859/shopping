@@ -19,32 +19,8 @@
       <change afterPath="$PROJECT_DIR$/../javaspring/src/main/java/com/huang/demo/pojo/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../javaspring/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huang/controller/BaseController.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huang/error/BusinessException.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huang/error/CommonError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huang/error/EmBusinessError.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huang/response/CommonReturnType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/huang/controller/BaseController.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/huang/error/BusinessException.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/huang/error/CommonError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/huang/error/EmBusinessError.class" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/target/classes/com/huang/response/CommonReturnType.class" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaWeb/src/main/java/com/huang/springbootdemo/pojo/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaWeb/src/main/java/com/huang/springbootdemo/pojo/User.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/compiler.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huang/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huang/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huang/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huang/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/Application.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/Application.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/dao/UserDOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/dao/UserDOMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/dao/UserPasswordDOMapper.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/dao/UserPasswordDOMapper.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/dataobject/UserDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/dataobject/UserDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/dataobject/UserPasswordDO.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/dataobject/UserPasswordDO.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/service/Impl/UserServiceImpl.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/service/Impl/UserServiceImpl.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/service/Model/UserModel.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/service/Model/UserModel.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/service/UserService.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/service/UserService.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/view/ViewObject.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/view/ViewObject.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -795,7 +771,7 @@
     <property name="RequestMappingsPanelWidth2" value="75" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565798620574" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565798765448" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -895,12 +871,12 @@
       <workItem from="1565674114239" duration="11088000" />
       <workItem from="1565695394265" duration="6275000" />
       <workItem from="1565710523479" duration="1236000" />
-      <workItem from="1565745358008" duration="14230000" />
+      <workItem from="1565745358008" duration="14473000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="32829000" />
+    <option name="totallyTimeSpent" value="33072000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
