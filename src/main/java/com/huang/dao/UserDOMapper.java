@@ -50,4 +50,6 @@ public interface UserDOMapper {
      * @mbg.generated Tue Aug 13 17:08:16 CST 2019
      */
     int updateByPrimaryKey(UserDO record);
+
+
 }
