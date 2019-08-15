@@ -19,20 +19,8 @@
       <change afterPath="$PROJECT_DIR$/../javaspring/src/main/java/com/huang/demo/pojo/User.java" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../javaspring/src/main/resources/mybatis-config.xml" afterDir="false" />
       <change afterPath="$PROJECT_DIR$/../pom.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/com/huang/utils/ValidationResult.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/../javaWeb/src/main/java/com/huang/springbootdemo/pojo/Image.java" beforeDir="false" afterPath="$PROJECT_DIR$/../javaWeb/src/main/java/com/huang/springbootdemo/pojo/User.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huang/controller/UserController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huang/controller/UserController.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huang/dao/UserDOMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huang/dao/UserDOMapper.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huang/response/CommonReturnType.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huang/response/CommonReturnType.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huang/service/Impl/UserServiceImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huang/service/Impl/UserServiceImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/com/huang/service/UserService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/huang/service/UserService.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/resources/mapping/UserDOMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/mapping/UserDOMapper.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/controller/UserController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/controller/UserController.class" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/target/classes/com/huang/response/CommonReturnType.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/huang/response/CommonReturnType.class" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/target/" />
@@ -846,7 +834,7 @@
     <property name="SearchEverywhereHistoryKey" value="nio&#9;FILE&#9;jar://A:/JDK1.8/jre/lib/charsets.jar!/sun/nio&#10;HashMap&#9;PSI&#9;JAVA://java.util.HashMap" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565883525922" />
+    <property name="com.android.tools.idea.instantapp.provision.ProvisionBeforeRunTaskProvider.myTimeStamp" value="1565883900856" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
@@ -953,12 +941,12 @@
       <workItem from="1565710523479" duration="1236000" />
       <workItem from="1565745358008" duration="14796000" />
       <workItem from="1565830645294" duration="7385000" />
-      <workItem from="1565852642477" duration="20694000" />
+      <workItem from="1565852642477" duration="21201000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="61474000" />
+    <option name="totallyTimeSpent" value="61981000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
