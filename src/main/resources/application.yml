@@ -7,5 +7,8 @@ spring:
     password: root
     username: root
     url: jdbc:mysql://127.0.0.1:3306/shopping?serverTimezone=UTC&characterEncoding=utf8&userUnicode=true&useSSL=false
+  thymeleaf:
+    prefix: classpath:/static/
+    suffix: .html
 server:
   port: 8099

@@ -1,0 +1,15 @@
+A:\Project\shopping\src\main\java\com\huang\dao\UserDOMapper.java
+A:\Project\shopping\src\main\java\com\huang\error\CommonError.java
+A:\Project\shopping\src\main\java\com\huang\service\Model\UserModel.java
+A:\Project\shopping\src\main\java\com\huang\service\UserService.java
+A:\Project\shopping\src\main\java\com\huang\Application.java
+A:\Project\shopping\src\main\java\com\huang\response\CommonReturnType.java
+A:\Project\shopping\src\main\java\com\huang\dataobject\UserDO.java
+A:\Project\shopping\src\main\java\com\huang\controller\UserController.java
+A:\Project\shopping\src\main\java\com\huang\dataobject\UserPasswordDO.java
+A:\Project\shopping\src\main\java\com\huang\controller\BaseController.java
+A:\Project\shopping\src\main\java\com\huang\dao\UserPasswordDOMapper.java
+A:\Project\shopping\src\main\java\com\huang\error\BusinessException.java
+A:\Project\shopping\src\main\java\com\huang\service\Impl\UserServiceImpl.java
+A:\Project\shopping\src\main\java\com\huang\view\ViewObject.java
+A:\Project\shopping\src\main\java\com\huang\error\EmBusinessError.java
