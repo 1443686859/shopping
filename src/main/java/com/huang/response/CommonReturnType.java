@@ -4,7 +4,7 @@ package com.huang.response;
  * 处理接口返回的数据，使用stats返回状态，data返回数据
  */
 public class CommonReturnType {
-    private String stats;
+    private String status;
     private Object data;
 
     public static CommonReturnType create(String stats,Object data){
@@ -16,12 +16,12 @@ public class CommonReturnType {
     public static CommonReturnType create(Object data){
         return create("success",data);
     }
-    public String getStats() {
-        return stats;
+    public String getStatus() {
+        return status;
     }
 
-    public void setStats(String stats) {
-        this.stats = stats;
+    public void setStats(String status) {
+        this.status = status;
     }
 
     public Object getData() {

@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html lang="en"
+      xmlns:th=“http://www.thymeleaf.org”>
+
+<head>
+    <meta charset="UTF-8"/>
+    <title>Title</title>
+    <script src="js/jquery.js" type="text/javascript"></script>
+
+</head>
+<body>
+<div id="content">
+    <div class="login-header">
+        <img src="assets/login_header.png">
+    </div>
+    <form>
+        <div class="login-input-box">
+            <span class="icon icon-user"></span>
+            <input type="text" placeholder="手机号" name="telphone" id="telphone">
+        </div>
+
+        <div class="login-input-box">
+            <span class="icon icon-password"></span>
+            <input type="password" placeholder="密码" name="password" id="password">
+        </div>
+    </form>
+
+    <div>
+        <button id="login" type="submit" class="login-button-box">
+            登录
+        </button>
+        <button id="register" type="submit" class="logon-box">
+            注册
+        </button>
+    </div>
+</div>
+</body>
+
+<script>
+    // 所有的jquery的动态绑定元素需要页面渲染完成以后才可以操作
+    jQuery(document).ready(function () {
+        //绑定注册按钮的点击事件
+        $("#register").on("click",function (){
+            window.location.href="getotp.html";
+        });
+
+
+        //绑定otp的点击事件，用于向后端发送获取验证码的实现
+        $("#login").on("click",function () {
+            //拿到界面上所有元素的值
+            var telphone=$("#telphone").val();
+            var password=$("#password").val();
+
+
+            if(telphone==null || telphone==""){
+                alert("手机号不能为空");
+                //我们使用的是ajax传值，所以要捕获点击事件，不让它冒泡排序到上一层
+                return false;
+            }
+            if(password==null || password==""){
+                alert("密码不能为空");
+                //我们使用的是ajax传值，所以要捕获点击事件，不让它冒泡排序到上一层
+                return false;
+            }
+
+            $.ajax({
+                //头
+                type:"POST",
+                contentType:"application/x-www-form-urlencoded",
+                url:"http://localhost:8088/user/login",
+
+                //传参
+                data:{
+                    //获取用户输入的telphone\password等值
+                    "telphone":telphone,
+                    "password":password,
+                },
+                //成功的回调函数
+                //data是后端输出的json数据
+                //与后端的@CrossOrigin(allowCredentials = "true",allowedHeaders = "*")相互呼应
+                xhrFields:{withCredentials:true},
+                success:function (data) {
+
+                    console.log(data);
+                    if(data.status==="success"){
+                        alert("登录成功");
+                        window.location.href="listproduct.html"
+                    }else {
+                        alert("登录失败，原因为"+data.data.errMsg);
+                    }
+
+                },
+                //失败的回调函数
+                error:function (data) {
+                    alert("登录失败，原因为"+data.responseText);
+                }
+            });
+            return false;
+        });
+
+    });
+
+</script>
+</html>
